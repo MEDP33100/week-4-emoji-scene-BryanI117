@@ -1,0 +1,95 @@
+body {
+    background-color: #b3e5fc;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; 
+    font-size: 2em; 
+  }
+  
+  .scene-container {
+    position: relative; 
+    width: 80vw;  
+    max-width: 600px; 
+    height: 60vh; 
+    max-height: 400px;
+    display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  
+  }
+  
+  .sun {
+    position: absolute;
+    top: 0%;
+    left: -50%;
+    font-size: 4em; 
+  }
+  
+  .cloud {
+    position: absolute;
+    font-size: 1.5em;
+  }
+  .cloud1 {
+      top: 0%;
+      left: 100%;
+  }
+  .cloud2 {
+      top: 0%;
+      left: -10%
+  }
+  
+  
+  .ground {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      width: 100%;
+      position: relative;
+      bottom: 0;
+      margin-bottom: 1rem;
+  
+  }
+  
+  .tree {
+    position: absolute;
+    font-size: 3em;
+    top: 80%;
+    left: 39.5%;
+  }
+  
+  .animal {
+    position: relative;
+    top: 150%;
+    left: 0.5%;
+    font-size: 1.5em;
+  }
+  
+  
+  .water {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 1.2em;
+  }
+  .button-container{
+    position: absolute;
+      top: 100%;
+      left: 36%;
+      padding: 10px;
+      cursor: pointer
+  }
+
+  #startButton{
+    padding: 0.5rem 1rem;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: .5rem;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #e9dbdb;
+  }
